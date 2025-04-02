@@ -75,7 +75,7 @@ aside{
     place-items: center;
     background-color: rgb(216, 206, 206);
     background-size: cover;
-    background-image: url(/Image/banner1.jpg);
+    background-image: url(https://alexanderalbany.com/assets/images/cache/Homepage-Rotator_2-574e0382f8f81aa4b48e8e8f0a4313dd.jpg);
 }
 section>.content{
     width: 60%;
@@ -117,15 +117,15 @@ section>.group_btn>a>button{
     place-items: center;
 }
 #slide1{
-    background-image: url(/Image/banner1.jpg);
+    background-image: url(https://alexanderalbany.com/assets/images/cache/Homepage-Rotator_2-574e0382f8f81aa4b48e8e8f0a4313dd.jpg);
     background-size: cover;
 }
 #slide2{
-    background-image: url(/Image/banner2.jpg);
+    background-image: url(https://doudapartmenthomes.com/wp-content/uploads/2023/12/sidekix-media-LFlbLb8vJls-unsplash-scaled.jpg);
     background-size: cover;
 }
 #slide3{
-    background-image: url(/Image/banner3.jpg);
+    background-image: url(https://www.thespruce.com/thmb/BpZG-gG2ReQwYpzrQg302pezLr0=/1500x0/filters:no_upscale.jpg);
     background-size: cover;
 }
 :target{
