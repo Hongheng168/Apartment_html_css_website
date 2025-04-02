@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Apartement For Rent</title>
+</head>
+<body>
+    <main class="page">
+        <header>
+            <menu>
+            <div class="logo"><h1>Apartment</h1></div>
+            <label for= "bar" ><i class="fa-solid fa-bars" ></i></label>
+            <input type="checkbox" id="bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Properties</a></li>
+                <li><a href="#">Properties Detail</a></li>
+                <li><a href="#">Contact </a></li>
+                <li><a href="#"><i class="fa-solid fa-calendar-week"></i> &emsp;Scadule a visit</a></li>  
+            </ul>
+            </menu>
+        </header>
+            <aside>
+                <section id="slide1" class="slidebar">
+                    <div class="content">
+                        <button>Phnom Penh,
+                            <span style="color: orangered;">Cambodia</span>
+                        </button>
+                        <h2>Hurry! <br>Find The Apartment <br>That Really Suits You </h2>
+                    </div>
+                    <div class="group_btn">
+                        <a href="#slide3"> <button><i class="fa-solid fa-angle-left"></i></button></a>
+                        <a href="#slide2"> <button><i class="fa-solid fa-angle-right"></i></button></a>
+                    </div>
+                </section>
+                <section id="slide2" class="slidebar">
+                    <div class="content">
+                        <button>Phnom Penh,
+                            <span style="color: orangered;">Cambodia</span>
+                        </button>
+                        <h2>Hurry! <br>Find The Apartment <br>That Really Suits You </h2>
+                    </div>
+                    <div class="group_btn">
+                        <a href="#slide1"> <button><i class="fa-solid fa-angle-left"></i></button></a>
+                        <a href="#slide3"> <button><i class="fa-solid fa-angle-right"></i></button></a>
+                    </div>
+                </section>
+                <section id="slide3" class="slidebar">
+                    <div class="content">
+                        <button>Phnom Penh,
+                            <span style="color: orangered;">Cambodia</span>
+                        </button>
+                        <h2>Hurry! <br>Find The Apartment <br>That Really Suits You </h2>
+                    </div>
+                    <div class="group_btn">
+                        <a href="#slide2"> <button><i class="fa-solid fa-angle-left"></i></button></a>
+                        <a href="#slide1"> <button><i class="fa-solid fa-angle-right"></i></button></a>
+                    </div>
+                </section>
+            </aside>
+            <section class="Feature" style="margin-top: 50px;">
+                <div class="feature_apartment_right">
+                    <img src="https://www.contemporist.com/wp-content/uploads/2017/04/curved-wood-accent-wall-170417-1258-02-800x958.jpg" alt="">
+                    <div class="note-icon">
+                        <img src="/Image/edit (1).png" alt="">
+                    </div>
+                </div>
+                <div class="feature_apartment_center">
+                    <h4> | FEATURE</h4>
+                    <h1>Best View <br> & Choose Your Favorite View</h1>
+                    <div class="group-text">
+                        <div class="group-check-box">
+                            <input id="BestToggler" type="checkbox">
+                            <label for="BestToggler">Best useful link?</label> <br>
+                            <div class="content-text">A useful link is a web address that provides valuable information, tools, or services to help users accomplish a specific goal. In the context of apartment rentals, useful links can include websites that list available properties, offer price comparisons, provide home decor inspiration, or give financial advice for budgeting and planning.</div>
+                        </div>
+                        <div class="group-check-box">
+                            <input id="DolorToggler" type="checkbox">
+                            <label for="DolorToggler">How does this work?</label> <br>
+                            <div class="content-text">This platform allows you to easily find and rent apartments by providing detailed listings, featuring high-quality images, and offering useful filters like location, price range, and amenities. Simply browse through the available properties, schedule a visit, and contact the property owners or agents directly.</div>
+                        </div>
+                        <div class="group-check-box">
+                            <input id="AlmesitToggler" type="checkbox">
+                            <label for="AlmesitToggler">Why this appartment the best?</label> <br>
+                            <div class="content-text">This apartment offers a perfect blend of luxury, comfort, and convenience. Located in one of the most desirable neighborhoods, it provides stunning views, modern amenities, and spacious living areas. Whether you're looking for a quiet retreat or a place to entertain guests, this apartment is designed to meet all your needs. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature_apartment_left">
+                    <slot class="slot">
+                        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-01.png" alt="">
+                        <div class="txt">
+                            <h2>250 m2</h2>
+                            <p>Total Flat Space</p>
+                        </div>
+                    </slot>
+                    <center><hr size="0.5" color="#e0dfdc" width="75%"></center>
+                    <slot class="slot">
+                        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-02.png" alt="">
+                        <div class="txt">
+                            <h2>Contact</h2>
+                            <p>Contract Ready</p>
+                        </div>
+                    </slot>
+                    <center><hr size="0.5" color="#e0dfdc" width="75%"></center>
+                    <slot class="slot">
+                        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-03.png" alt="">
+                        <div class="txt">
+                            <h2>Paymenet</h2>
+                            <p>Payment Process</p>
+                        </div>
+                    </slot>
+                    <center><hr size="0.5" color="#e0dfdc" width="75%"></center>
+                    <slot class="slot">
+                        <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/info-icon-04.png" alt="">
+                        <div class="txt">
+                            <h2>Safety</h2>
+                            <p> 24/7 Under Control</p>
+                        </div>
+                    </slot>
+                </div>
+            </section>
+            <section class="Video_View">
+                <div class="txt">
+                    <h3>| Video View</h3>
+                    <h2> Get Closer View <br> & Different Feeling</h2>
+                </div>
+                <img src="https://templatemo.com/templates/templatemo_591_villa_agency/assets/images/video-frame.jpg" alt="">
+            </section>
+            <section class="content-years">
+                <div class="content-1">
+                    <div class="left">
+                        <h2>34</h2>
+                    </div>
+                    <div class="right">
+                        <p>Buildings <br> Finish Now</p>
+                    </div>
+                    <div class="circle"></div>
+                </div>
+                <div class="content-1">
+                    <div class="left">
+                        <h2>12</h2>
+                    </div>
+                    <div class="right">
+                        <p>Years <br> Experience</p>
+                    </div>
+                    <div class="circle"></div>
+                </div>
+                <div class="content-1">
+                    <div class="left">
+                        <h2>24</h2>
+                    </div>
+                    <div class="right">
+                        <p>Awward <br> Won 2023</p>
+                    </div>
+                    <div class="circle"></div>
+                </div>
+            </section>
+            <br><br><br><br><br><br>
+    </main>
+</body>
+</html>
