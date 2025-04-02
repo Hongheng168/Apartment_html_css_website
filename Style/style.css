@@ -75,7 +75,7 @@ aside{
     place-items: center;
     background-color: rgb(216, 206, 206);
     background-size: cover;
-    background-image: url(gitImage/banner1.jpg);
+    background-image: url(Image/banner1.jpg);
 }
 section>.content{
     width: 60%;
